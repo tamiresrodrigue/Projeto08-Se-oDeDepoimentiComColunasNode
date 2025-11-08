@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+blockquote,q {
+    quotes: none;
+}
+
+/*2 ESTILOS GERAIS*/
+body{
+    font-family: 'Segoe UI',  sans-serif; /* Fonte principal */
+    font-size: 16px; /* Tamanho da fonte */
+    background-color: #F8F9FA;/* Cor de fundo */
+    color: #333; /* Cor do texto */
+    margin: 0;/* Margem padrão */
+   padding: 40px, 20px; /* Espaçamento interno */
+}
+.container{
+    max-width: 1100px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza horizontalmente */
+   
+}
+
+.testimonials-section {
+    background: #fff;
+    padding: 40px 0;
+}
+
+.section-title {
+    text-align: center;/* Centraliza o título */
+    margin-bottom: 40px;/* Espaçamento abaixo do título */
+    font-size: 2.2rem;/* Tamanho da fonte do título */
+    color: #343a40;/* Cor do título */
+}
+
+
+/*LAYOUT DA SEÇÃO*/
+.testimonial-grids {
+    display: flex;/* Usa Flexbox para layout */
+    flex-wrap: wrap;/* Permite que os itens quebrem linha */
+    justify-content: center; /*centraliza no centro da tela*/
+    gap: 30px;/* Espaçamento entre os itens */
+}
+
+/*ESTILO DOS CARTOES DE DEPOIMENTOS*/
+
+.testimonial-cards {
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 8px;/* Bordas arredondadas */
+    padding: 30px;/* Espaçamento interno */
+    margin-bottom: 20px;/* Espaçamento abaixo do cartão */
+    flex: 1 1 300px; /* Flexível, mas com largura mínima de 300px */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);/* Sombra para profundidade */
+    text-align: center;/* Centraliza o conteúdo */
+    max-width: 350px;/* Largura máxima do cartão */
+}
+
+/*ESTILOS DOS ELEMENTOS DENTRO DO CARTÃO*/
+
+.testimonial-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;/* Torna a imagem circular */
+    margin-bottom: 20px;/* Espaçamento abaixo do avatar */
+    object-fit: cover;/* Corta a imagem para caber no círculo */
+    border: 3px solid #e9ecef;
+}
+
+.testimonial-quote {
+    font-style: 1rem;
+    color: #6c757d;
+    margin: 0;
+    font-style: italic;
+    line-height: 1.6;
+    
+}
+
+.testimonial-author {
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+    font-style: normal;
+    color: #495057;
+}
+
+.testimonial-role {
+    color: #adb5bd;
+    font-size: 0.9rem;/* Tamanho da fonte do cargo */
+    margin-top: 5px;/* Espaçamento acima do cargo */
+
+}
